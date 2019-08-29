@@ -1,0 +1,70 @@
+{
+   "DisplayTieOff":"1",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port pb_uart_tx -pg 1 -y 910 -defaultsOSRD
+preplace port led_4bits -pg 1 -y 730 -defaultsOSRD
+preplace port pb_uart_rx -pg 1 -y 610 -defaultsOSRD
+preplace port reset -pg 1 -y 760 -defaultsOSRD
+preplace port dip_switch_4bits -pg 1 -y 750 -defaultsOSRD
+preplace portBus pb_uart_cts -pg 1 -y 970 -defaultsOSRD
+preplace inst picoBlaze_prog0 -pg 1 -lvl 5 -y 600 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 2 -y 420 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 3 -y 490 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 5 -y 60 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 6 -y 970 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 5 -y 210 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 3 -y 970 -defaultsOSRD
+preplace inst pBlaze_0 -pg 1 -lvl 1 -y 610 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -y 780 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 4 -y 740 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 4 -y 980 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 6 -y 210 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 4 -y 140 -defaultsOSRD
+preplace inst axi_bram_ctrl_1 -pg 1 -lvl 4 -y 530 -defaultsOSRD
+preplace netloc xlconstant_1_dout 1 3 1 NJ
+preplace netloc axi_bram_ctrl_0_bram_addr_a 1 4 1 1970J
+preplace netloc axi_bram_ctrl_0_bram_clk_a 1 4 2 1970J 270 2230
+preplace netloc pBlaze_0_external_mem_wea 1 1 5 510 310 NJ 310 NJ 310 NJ 310 2220J
+preplace netloc pBlaze_0_bram_enable 1 1 4 540 630 1230J 650 NJ 650 NJ
+preplace netloc xlslice_1_Dout 1 5 1 2240
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 6 20 750 560 510 1230 320 1600 330 1960 330 2240J
+preplace netloc pBlaze_0_irqs 1 1 1 530
+preplace netloc pBlaze_0_external_mem_dina 1 1 5 500 280 NJ 280 NJ 280 NJ 280 NJ
+preplace netloc ps8_0_axi_periph_M02_AXI 1 3 1 N
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 2 1 N
+preplace netloc blk_mem_gen_2_doutb 1 0 5 40 740 550J 660 NJ 660 1590J 630 NJ
+preplace netloc ps8_0_axi_periph_M01_AXI 1 3 1 1560
+preplace netloc pBlaze_0_address 1 1 3 NJ 640 1220J 680 1560
+preplace netloc pBlaze_0_external_mem_addra 1 1 5 480 20 NJ 20 NJ 20 1980J 120 2210J
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 2 1 1250
+preplace netloc xlconcat_0_dout 1 4 1 1980
+preplace netloc xlconstant_0_dout 1 6 1 NJ
+preplace netloc axi_gpio_0_GPIO2 1 4 3 NJ 750 NJ 750 NJ
+preplace netloc ps8_0_axi_periph_M00_AXI 1 3 1 1580
+preplace netloc axi_bram_ctrl_0_bram_wrdata_a 1 4 2 1940J 130 2240
+preplace netloc axi_gpio_0_GPIO 1 4 3 NJ 730 NJ 730 NJ
+preplace netloc axi_bram_ctrl_0_bram_we_a 1 4 1 1950J
+preplace netloc blk_mem_gen_0_douta 1 4 2 1960J 150 2200
+preplace netloc pBlaze_0_external_mem_ena 1 1 5 490 300 NJ 300 1610J 320 NJ 320 NJ
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 1 2 580 520 1220
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 2 1240 330 1570
+preplace netloc zynq_ultra_ps_e_0_pl_resetn1 1 0 3 30 770 570J 680 1210
+preplace netloc blk_mem_gen_0_doutb 1 0 6 40 270 NJ 270 NJ 270 NJ 270 1950J 300 NJ
+preplace netloc axi_bram_ctrl_1_BRAM_PORTA 1 4 1 1940
+preplace netloc axi_bram_ctrl_0_bram_en_a 1 4 2 1950J 140 2220
+preplace netloc reset_1 1 0 2 NJ 760 NJ
+preplace netloc xlslice_0_Dout 1 5 1 2210
+preplace netloc pBlaze_0_uart_top_tx 1 1 6 520J 670 NJ 670 1610J 660 1950J 720 NJ 720 2460J
+preplace netloc pb_uart_rx_1 1 0 1 NJ
+levelinfo -pg 1 0 270 910 1410 1780 2100 2360 2490 -top 0 -bot 1050
+"
+}
+{
+   "da_axi4_cnt":"12",
+   "da_board_cnt":"4",
+   "da_bram_cntlr_cnt":"3",
+   "da_clkrst_cnt":"13",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}

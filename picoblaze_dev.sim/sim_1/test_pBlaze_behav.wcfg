@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_pBlaze_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="jtag_loader_pkg" />
+            <top_module name="test_pBlaze" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000001fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="235"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="86" />
+   <wvobject type="logic" fp_name="/test_pBlaze/clk100Mhz">
+      <obj_property name="ElementShortName">clk100Mhz</obj_property>
+      <obj_property name="ObjectShortName">clk100Mhz</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pBlaze/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pBlaze/uart_top_rx">
+      <obj_property name="ElementShortName">uart_top_rx</obj_property>
+      <obj_property name="ObjectShortName">uart_top_rx</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_pBlaze/uart_top_tx">
+      <obj_property name="ElementShortName">uart_top_tx</obj_property>
+      <obj_property name="ObjectShortName">uart_top_tx</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/kcpsm6_opcode">
+      <obj_property name="ElementShortName">kcpsm6_opcode[1:19]</obj_property>
+      <obj_property name="ObjectShortName">kcpsm6_opcode[1:19]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/kcpsm6_status">
+      <obj_property name="ElementShortName">kcpsm6_status[1:16]</obj_property>
+      <obj_property name="ObjectShortName">kcpsm6_status[1:16]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_s0">
+      <obj_property name="ElementShortName">sim_s0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_s1">
+      <obj_property name="ElementShortName">sim_s1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_s2">
+      <obj_property name="ElementShortName">sim_s2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s2[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_s3">
+      <obj_property name="ElementShortName">sim_s3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s3[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_s4">
+      <obj_property name="ElementShortName">sim_s4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s4[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_s5">
+      <obj_property name="ElementShortName">sim_s5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s5[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_s6">
+      <obj_property name="ElementShortName">sim_s6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s6[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_s7">
+      <obj_property name="ElementShortName">sim_s7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s7[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_s8">
+      <obj_property name="ElementShortName">sim_s8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s8[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_s9">
+      <obj_property name="ElementShortName">sim_s9[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s9[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_sA">
+      <obj_property name="ElementShortName">sim_sA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_sA[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_sB">
+      <obj_property name="ElementShortName">sim_sB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_sB[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_sC">
+      <obj_property name="ElementShortName">sim_sC[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_sC[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_sD">
+      <obj_property name="ElementShortName">sim_sD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_sD[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_sE">
+      <obj_property name="ElementShortName">sim_sE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_sE[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_sF">
+      <obj_property name="ElementShortName">sim_sF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_sF[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm00">
+      <obj_property name="ElementShortName">sim_spm00[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm00[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm01">
+      <obj_property name="ElementShortName">sim_spm01[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm01[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm02">
+      <obj_property name="ElementShortName">sim_spm02[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm02[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm03">
+      <obj_property name="ElementShortName">sim_spm03[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm03[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm04">
+      <obj_property name="ElementShortName">sim_spm04[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm04[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm05">
+      <obj_property name="ElementShortName">sim_spm05[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm05[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm06">
+      <obj_property name="ElementShortName">sim_spm06[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm06[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm07">
+      <obj_property name="ElementShortName">sim_spm07[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm07[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm08">
+      <obj_property name="ElementShortName">sim_spm08[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm08[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm09">
+      <obj_property name="ElementShortName">sim_spm09[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm09[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm0A">
+      <obj_property name="ElementShortName">sim_spm0A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm0A[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm0B">
+      <obj_property name="ElementShortName">sim_spm0B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm0B[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm0C">
+      <obj_property name="ElementShortName">sim_spm0C[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm0C[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm0D">
+      <obj_property name="ElementShortName">sim_spm0D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm0D[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm0E">
+      <obj_property name="ElementShortName">sim_spm0E[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm0E[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm0F">
+      <obj_property name="ElementShortName">sim_spm0F[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm0F[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm10">
+      <obj_property name="ElementShortName">sim_spm10[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm10[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm11">
+      <obj_property name="ElementShortName">sim_spm11[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm11[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm12">
+      <obj_property name="ElementShortName">sim_spm12[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm12[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm13">
+      <obj_property name="ElementShortName">sim_spm13[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm13[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm14">
+      <obj_property name="ElementShortName">sim_spm14[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm14[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm15">
+      <obj_property name="ElementShortName">sim_spm15[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm15[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm16">
+      <obj_property name="ElementShortName">sim_spm16[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm16[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm17">
+      <obj_property name="ElementShortName">sim_spm17[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm17[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm18">
+      <obj_property name="ElementShortName">sim_spm18[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm18[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm19">
+      <obj_property name="ElementShortName">sim_spm19[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm19[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm1A">
+      <obj_property name="ElementShortName">sim_spm1A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm1A[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm1B">
+      <obj_property name="ElementShortName">sim_spm1B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm1B[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm1C">
+      <obj_property name="ElementShortName">sim_spm1C[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm1C[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm1D">
+      <obj_property name="ElementShortName">sim_spm1D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm1D[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm1E">
+      <obj_property name="ElementShortName">sim_spm1E[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm1E[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm1F">
+      <obj_property name="ElementShortName">sim_spm1F[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm1F[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm20">
+      <obj_property name="ElementShortName">sim_spm20[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm20[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm21">
+      <obj_property name="ElementShortName">sim_spm21[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm21[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm22">
+      <obj_property name="ElementShortName">sim_spm22[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm22[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm23">
+      <obj_property name="ElementShortName">sim_spm23[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm23[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm24">
+      <obj_property name="ElementShortName">sim_spm24[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm24[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm25">
+      <obj_property name="ElementShortName">sim_spm25[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm25[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm26">
+      <obj_property name="ElementShortName">sim_spm26[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm26[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm27">
+      <obj_property name="ElementShortName">sim_spm27[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm27[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm28">
+      <obj_property name="ElementShortName">sim_spm28[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm28[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm29">
+      <obj_property name="ElementShortName">sim_spm29[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm29[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm2A">
+      <obj_property name="ElementShortName">sim_spm2A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm2A[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm2B">
+      <obj_property name="ElementShortName">sim_spm2B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm2B[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm2C">
+      <obj_property name="ElementShortName">sim_spm2C[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm2C[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm2D">
+      <obj_property name="ElementShortName">sim_spm2D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm2D[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm2E">
+      <obj_property name="ElementShortName">sim_spm2E[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm2E[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm2F">
+      <obj_property name="ElementShortName">sim_spm2F[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm2F[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm30">
+      <obj_property name="ElementShortName">sim_spm30[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm30[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm31">
+      <obj_property name="ElementShortName">sim_spm31[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm31[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm32">
+      <obj_property name="ElementShortName">sim_spm32[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm32[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm33">
+      <obj_property name="ElementShortName">sim_spm33[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm33[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm34">
+      <obj_property name="ElementShortName">sim_spm34[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm34[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm35">
+      <obj_property name="ElementShortName">sim_spm35[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm35[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm36">
+      <obj_property name="ElementShortName">sim_spm36[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm36[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm37">
+      <obj_property name="ElementShortName">sim_spm37[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm37[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm38">
+      <obj_property name="ElementShortName">sim_spm38[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm38[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm39">
+      <obj_property name="ElementShortName">sim_spm39[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm39[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm3A">
+      <obj_property name="ElementShortName">sim_spm3A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm3A[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm3B">
+      <obj_property name="ElementShortName">sim_spm3B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm3B[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm3C">
+      <obj_property name="ElementShortName">sim_spm3C[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm3C[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm3D">
+      <obj_property name="ElementShortName">sim_spm3D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm3D[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm3E">
+      <obj_property name="ElementShortName">sim_spm3E[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm3E[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_pBlaze/uut/processor/sim_spm3F">
+      <obj_property name="ElementShortName">sim_spm3F[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm3F[7:0]</obj_property>
+   </wvobject>
+</wave_config>

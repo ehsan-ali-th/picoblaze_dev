@@ -1,0 +1,21 @@
+18:39:10 **** Build of configuration Debug for project fft2 ****
+make all 
+Building file: ../src/main.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../fft2_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: fft2.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fft2_bsp/psu_cortexa53_0/lib -o "fft2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: fft2.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size fft2.elf  |tee "fft2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86672	  25296	  20968	 132936	  20748	fft2.elf
+Finished building: fft2.elf.size
+ 
+
+18:39:11 Build Finished (took 966ms)
+

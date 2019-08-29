@@ -1,0 +1,6 @@
+18:31:12 INFO  : Registering command handlers for SDK TCF services
+18:31:14 INFO  : Launching XSCT server: xsct -n -interactive /home/esi/workspace/Vivado_2018.3/zcu104/picoblaze_dev/picoblaze_dev.sdk/temp_xsdb_launch_script.tcl
+18:31:16 INFO  : XSCT server has started successfully.
+18:31:16 INFO  : Successfully done setting XSCT server connection channel  
+18:31:16 INFO  : Successfully done setting SDK workspace  
+18:31:16 INFO  : Processing command line option -hwspec /home/esi/workspace/Vivado_2018.3/zcu104/picoblaze_dev/picoblaze_dev.sdk/system_wrapper.hdf.

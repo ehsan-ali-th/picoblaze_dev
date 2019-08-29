@@ -1,0 +1,21 @@
+18:39:58 **** Auto Build of configuration Debug for project picoblaze_app ****
+make all 
+Building file: ../src/main.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../picoblaze_app_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: picoblaze_app.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../picoblaze_app_bsp/psu_cortexa53_0/lib -o "picoblaze_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: picoblaze_app.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size picoblaze_app.elf  |tee "picoblaze_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86544	  25296	  20968	 132808	  206c8	picoblaze_app.elf
+Finished building: picoblaze_app.elf.size
+ 
+
+18:39:58 Build Finished (took 815ms)
+
