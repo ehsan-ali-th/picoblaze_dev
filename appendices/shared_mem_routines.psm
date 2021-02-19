@@ -1,0 +1,32 @@
+; Shared Memory Read/Write Rountines
+; 
+; Authors: 
+;				- Ehsan Ali:		ehssan.aali@gmail.com
+;				- Wanchalerm Pora	wanchalerm.p@chula.ac.th
+; Last modfied: 21-Aug-2019
+
+CONSTANT Extra_mem_lo_output_port, 01
+CONSTANT Extra_mem_hi_output_port, 02
+CONSTANT Extra_mem_output_port,    03
+
+Read_ext_mem:
+ OR     s6, 80  ;Enable BRAM clock
+ OUTPUT s5, Extra_mem_lo_output_port
+ OUTPUT s6, Extra_mem_hi_output_port
+ OR     s5, s5      ;Delay
+ INPUT  s7, Extra_mem_input_port
+ AND    s6, 7F  ;Disable BRAM clock
+ OUTPUT s6, Extra_mem_hi_output_port
+RETURN
+
+Write_ext_mem:
+ ;Enable BRAM and write enable.	
+ OR     s6, C0		
+ OUTPUT s7, Extra_mem_output_port
+ OUTPUT s5, Extra_mem_lo_output_port
+ OUTPUT s6, Extra_mem_hi_output_port
+ OR     s5, s5	;Delay 
+ ;Disable BRAM and write enable.	
+ AND    s6, 3F	
+ OUTPUT s6, Extra_mem_hi_output_port
+RETURN 
