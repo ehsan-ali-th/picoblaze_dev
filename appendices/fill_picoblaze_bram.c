@@ -1,4 +1,9 @@
-// fill_picoBlaze_BRAM() function [runs on FPGA PS]
+// This is the source code of fill_picoBlaze_BRAM() function [runs on FPGA PS] 
+// 
+// Authors: 
+//				- Ehsan Ali:		ehssan.aali@gmail.com
+//				- Wanchalerm Pora	wanchalerm.p@chula.ac.th
+// Last modfied: 21-Aug-2019
 
 void fill_picoBlaze_BRAM() {
   int loc = 0;
