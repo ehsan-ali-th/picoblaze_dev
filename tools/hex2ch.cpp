@@ -1,4 +1,4 @@
-// This program converts picoblaze .hex file to SDK .h header file
+// This program converts picoblaze .hex file to SDK .h header file [runs on development environment]
 // 
 // Authors: 
 //				- Ehsan Ali:		ehssan.aali@gmail.com
