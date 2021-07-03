@@ -14,3 +14,5 @@ Folder content:
 - tools/test.hex			: Sample PicoBlaze program in .hex format
 
 The Vivado 2018.3 Project demonstrates the complete development tool for PicoBlaze proposed in the paper "Improved Development Cycle for 8-bit FPGA-Based Soft-Macros Targeting Complex Algorithms".
+
+Copyright notice: This project is part of PhD thesis titled: "A Morphable Soft Processor using LLVM Infrastructure Targeting Low-Power Application-Specific Embedded Systems" at the Electrical Engineering Department of Chulalongkorn University, Thailand. Copying and clonning is allowed by having a reference to the thesis title and author.
